@@ -1,0 +1,1598 @@
+[ 2018-01-05T16:51:03+08:00 ] ::1 /CCIR_master/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `c_type` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `c_type` LIMIT 9   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `c_user` WHERE `userId` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0012s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/Db/Driver.class.php 第 504 行.
+SQL: SELECT * FROM `c_contest` ORDER BY createtime desc LIMIT 2   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=12 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_contest` ORDER BY postNum desc LIMIT 2   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_type`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000459s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000507s ]
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 707 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 707 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 707 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 707 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 707 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 707 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 707 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 707 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 707 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 899 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 899 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 899 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 899 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 899 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 899 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 899 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 899 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 899 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2018-01-05T16:51:33+08:00 ] ::1 /CCIR_master/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `c_type` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `c_type` LIMIT 9   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `c_user` WHERE `userId` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0012s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/Db/Driver.class.php 第 504 行.
+SQL: SELECT * FROM `c_contest` ORDER BY createtime desc LIMIT 2   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_contest` ORDER BY postNum desc LIMIT 2   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `c_type`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000848s ]
+
+[ 2018-01-05T17:01:55+08:00 ] ::1 /CCIR_master/index.php/Home/Index/index/typeId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `c_type` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `c_type` LIMIT 9   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `c_user` WHERE `userId` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `c_contest` WHERE `typeId` = 1 ORDER BY createtime desc LIMIT 2   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_contest` ORDER BY postNum desc LIMIT 2   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_type`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000919s ]
+
+[ 2018-01-05T17:01:58+08:00 ] ::1 /CCIR_master/index.php/Home/Index/index/typeId/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `c_type` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_type` LIMIT 9   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `c_user` WHERE `userId` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `c_contest` WHERE `typeId` = 4 ORDER BY createtime desc LIMIT 2   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_contest` ORDER BY postNum desc LIMIT 2   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `c_type`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2018-01-05T17:02:02+08:00 ] ::1 /CCIR_master/index.php/Home/Contest/detailContest/id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `c_contest` INNER JOIN c_type on c_contest.typeId=c_type.typeId  WHERE ( contestId=17 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2018-01-05T17:22:04+08:00 ] ::1 /CCIR_master/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `c_type` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_type` LIMIT 9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `c_user` WHERE `userId` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0012s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/Db/Driver.class.php 第 504 行.
+SQL: SELECT * FROM `c_contest` ORDER BY createtime desc LIMIT 2   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=12 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_contest` ORDER BY postNum desc LIMIT 2   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `c_type`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2018-01-05T17:22:07+08:00 ] ::1 /CCIR_master/index.php/Home/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+
+[ 2018-01-05T17:22:09+08:00 ] ::1 /CCIR_master/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `c_type` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `c_type` LIMIT 9   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: userInfo /Users/NaDou329/CCIR_master/Application/Home/Controller/IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `c_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `c_user` WHERE `userId` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0014s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/Db/Driver.class.php 第 504 行.
+SQL: SELECT * FROM `c_contest` ORDER BY createtime desc LIMIT 2   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=12 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_contest` ORDER BY postNum desc LIMIT 2   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_type`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Undefined index: userInfo /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2018-01-05T17:22:10+08:00 ] ::1 /CCIR_master/index.php/Home/Recommend/dorecommend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+
+[ 2018-01-05T17:22:12+08:00 ] ::1 /CCIR_master/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2018-01-05T17:35:54+08:00 ] ::1 /CCIR_master/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2018-01-05T17:42:48+08:00 ] ::1 /CCIR_master/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2018-01-05T17:42:55+08:00 ] ::1 /CCIR_master/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `c_type` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `c_type` LIMIT 9   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: userInfo /Users/NaDou329/CCIR_master/Application/Home/Controller/IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `c_user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `c_user` WHERE `userId` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0026s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/Db/Driver.class.php 第 504 行.
+SQL: SELECT * FROM `c_contest` ORDER BY createtime desc LIMIT 2   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=12 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_contest` ORDER BY postNum desc LIMIT 2   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `c_type`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+NOTIC: [8] Undefined index: userInfo /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2018-01-05T17:43:10+08:00 ] ::1 /CCIR_master/index.php/Home/Contest/detailContest/id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `c_contest` INNER JOIN c_type on c_contest.typeId=c_type.typeId  WHERE ( contestId=17 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined index: userInfo /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/a78f10ef3f4a3ef120a88d7161f6426a.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2018-01-05T17:43:21+08:00 ] ::1 /CCIR_master/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `c_type` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `c_type` LIMIT 9   [ RunTime:0.0036s ]
+NOTIC: [8] Undefined index: userInfo /Users/NaDou329/CCIR_master/Application/Home/Controller/IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `c_user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `c_user` WHERE `userId` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0013s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/Db/Driver.class.php 第 504 行.
+SQL: SELECT * FROM `c_contest` ORDER BY createtime desc LIMIT 2   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=12 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_contest` ORDER BY postNum desc LIMIT 2   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `c_type`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+NOTIC: [8] Undefined index: userInfo /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2018-01-05T17:43:51+08:00 ] ::1 /CCIR_master/index.php/Home/Contest/detailContest/id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `c_contest` INNER JOIN c_type on c_contest.typeId=c_type.typeId  WHERE ( contestId=17 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined index: userInfo /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/a78f10ef3f4a3ef120a88d7161f6426a.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2018-01-05T17:44:28+08:00 ] ::1 /CCIR_master/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `c_type` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `c_type` LIMIT 9   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: userInfo /Users/NaDou329/CCIR_master/Application/Home/Controller/IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `c_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `c_user` WHERE `userId` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0016s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/Db/Driver.class.php 第 504 行.
+SQL: SELECT * FROM `c_contest` ORDER BY createtime desc LIMIT 2   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=12 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_contest` ORDER BY postNum desc LIMIT 2   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_type`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] Undefined index: userInfo /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2018-01-05T17:44:30+08:00 ] ::1 /CCIR_master/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `c_type` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `c_type` LIMIT 9   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: userInfo /Users/NaDou329/CCIR_master/Application/Home/Controller/IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `c_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `c_user` WHERE `userId` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0013s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/Db/Driver.class.php 第 504 行.
+SQL: SELECT * FROM `c_contest` ORDER BY createtime desc LIMIT 2   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=12 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_contest` ORDER BY postNum desc LIMIT 2   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_type`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+NOTIC: [8] Undefined index: userInfo /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2018-01-05T17:44:36+08:00 ] ::1 /CCIR_master/index.php/Home/Contest//id/27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+ERR: 非法操作:id
+
+[ 2018-01-05T17:44:59+08:00 ] ::1 /CCIR_master/index.php/Home/Contest/detailContest/id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `c_contest` INNER JOIN c_type on c_contest.typeId=c_type.typeId  WHERE ( contestId=17 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Undefined index: userInfo /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/a78f10ef3f4a3ef120a88d7161f6426a.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2018-01-05T17:45:13+08:00 ] ::1 /CCIR_master/index.php/Home/Contest/incontest.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] Undefined index: userInfo /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/868fb5c7785453492fd6537dffb01814.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2018-01-05T17:45:14+08:00 ] ::1 /CCIR_master/index.php/Home/Contest/offcontest.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `c_type` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `c_type` LIMIT 6   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `c_contest` WHERE `maintype` = 2 ORDER BY endtime desc LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c_contest` WHERE `maintype` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Undefined index: userInfo /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/69dc8841bc127497871b28adbd0d46dd.php 第 44 行.
+NOTIC: [8] Undefined index: typename /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/69dc8841bc127497871b28adbd0d46dd.php 第 197 行.
+NOTIC: [8] Undefined index: typename /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/69dc8841bc127497871b28adbd0d46dd.php 第 197 行.
+NOTIC: [8] Undefined index: typename /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/69dc8841bc127497871b28adbd0d46dd.php 第 197 行.
+NOTIC: [8] Undefined index: typename /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/69dc8841bc127497871b28adbd0d46dd.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008482s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2018-01-05T17:45:15+08:00 ] ::1 /CCIR_master/index.php/Home/Contest/incontest.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+NOTIC: [8] Undefined index: userInfo /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/868fb5c7785453492fd6537dffb01814.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2018-01-05T17:45:19+08:00 ] ::1 /CCIR_master/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `c_type` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `c_type` LIMIT 9   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: userInfo /Users/NaDou329/CCIR_master/Application/Home/Controller/IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `c_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `c_user` WHERE `userId` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0018s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/Db/Driver.class.php 第 504 行.
+SQL: SELECT * FROM `c_contest` ORDER BY createtime desc LIMIT 2   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=12 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_contest` ORDER BY postNum desc LIMIT 2   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `c_type`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+NOTIC: [8] Undefined index: userInfo /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2018-01-05T17:45:47+08:00 ] ::1 /CCIR_master/index.php/Home/Recommend/dorecommend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+
+[ 2018-01-05T17:45:51+08:00 ] ::1 /CCIR_master/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2018-01-05T17:46:08+08:00 ] ::1 /CCIR_master/index.php/Home/User/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `c_user` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `c_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `c_user` WHERE `userName` = 'zhangna' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `c_user` SET `lastime`='1515145568',`lastip`='::1' WHERE `userName` = 'zhangna' AND `password` = '21232f297a57a5a743894a0e4a801fc3' [ RunTime:0.0007s ]
+SQL: SELECT * FROM `c_user` WHERE `userName` = 'zhangna' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/NaDou329/CCIR_master/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2018-01-05T17:46:10+08:00 ] ::1 /CCIR_master/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+SQL: SHOW COLUMNS FROM `c_type` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_type` LIMIT 9   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `c_user` WHERE `userId` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0013s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/Db/Driver.class.php 第 504 行.
+SQL: SELECT * FROM `c_contest` ORDER BY createtime desc LIMIT 2   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=12 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_contest` ORDER BY postNum desc LIMIT 2   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_type`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000507s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2018-01-05T17:46:13+08:00 ] ::1 /CCIR_master/index.php/Home/Recommend/dorecommend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `c_recommend` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `c_type` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `c_type`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2018-01-05T17:46:13+08:00 ] ::1 /CCIR_master/index.php/Home/Recommend/gimages/top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+
+[ 2018-01-05T17:46:13+08:00 ] ::1 /CCIR_master/index.php/Home/Recommend/gimages/qq.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2018-01-05T17:46:13+08:00 ] ::1 /CCIR_master/index.php/Home/Recommend/gimages/wx.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000537s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+
+[ 2018-01-05T17:46:13+08:00 ] ::1 /CCIR_master/index.php/Home/Recommend/gimages/wb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001237s ]
+
+[ 2018-01-05T17:46:13+08:00 ] ::1 /CCIR_master/index.php/Home/Recommend/gimages/kj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+
+[ 2018-01-05T17:47:55+08:00 ] ::1 /CCIR_master/index.php/Home/Recommend/doRecommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `c_recommend` [ RunTime:0.0016s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `c_recommend` (`title`,`maintype`,`typeId`,`content`,`createtime`,`picurl`,`texturl`) VALUES ('再次测试消防演习','1','3','IE我拿去','1515145675','./Uploads/RContest/2018-01-05/5a4f49cb453b9.jpg','./Uploads/RFile/2018-01-05/5a4f49cb460e1.docx') [ RunTime:0.0005s ]
+
+[ 2018-01-05T17:47:57+08:00 ] ::1 /CCIR_master/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `c_type` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `c_type` LIMIT 9   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `c_user` WHERE `userId` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0014s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/Db/Driver.class.php 第 504 行.
+SQL: SELECT * FROM `c_contest` ORDER BY createtime desc LIMIT 2   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=12 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_contest` ORDER BY postNum desc LIMIT 2   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `c_type`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2018-01-05T17:48:25+08:00 ] ::1 /CCIR_master/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `c_type` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_type` LIMIT 9   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `c_user` WHERE `userId` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0012s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/Db/Driver.class.php 第 504 行.
+SQL: SELECT * FROM `c_contest` ORDER BY createtime desc LIMIT 2   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `c_contest` ORDER BY postNum desc LIMIT 2   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `c_type`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2018-01-05T17:48:30+08:00 ] ::1 /CCIR_master/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `c_type` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_type` LIMIT 9   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `c_user` WHERE `userId` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0013s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/Db/Driver.class.php 第 504 行.
+SQL: SELECT * FROM `c_contest` ORDER BY createtime desc LIMIT 2   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=12 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `c_contest` ORDER BY postNum desc LIMIT 2   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `c_type`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2018-01-05T17:51:43+08:00 ] ::1 /CCIR_master/index.php/Home/Index/index/typeId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+SQL: SHOW COLUMNS FROM `c_type` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `c_type` LIMIT 9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `c_user` WHERE `userId` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `c_contest` WHERE `typeId` = 1 ORDER BY createtime desc LIMIT 2   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_contest` ORDER BY postNum desc LIMIT 2   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `c_type`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2018-01-05T17:52:00+08:00 ] ::1 /CCIR_master/index.php/Home/Contest/incontest.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2018-01-05T17:52:02+08:00 ] ::1 /CCIR_master/index.php/Home/Contest/offcontest.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `c_type` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `c_type` LIMIT 6   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `c_contest` WHERE `maintype` = 2 ORDER BY endtime desc LIMIT 0,6   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c_contest` WHERE `maintype` = 2 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+NOTIC: [8] Undefined index: typename /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/69dc8841bc127497871b28adbd0d46dd.php 第 197 行.
+NOTIC: [8] Undefined index: typename /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/69dc8841bc127497871b28adbd0d46dd.php 第 197 行.
+NOTIC: [8] Undefined index: typename /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/69dc8841bc127497871b28adbd0d46dd.php 第 197 行.
+NOTIC: [8] Undefined index: typename /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/69dc8841bc127497871b28adbd0d46dd.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2018-01-05T17:52:04+08:00 ] ::1 /CCIR_master/index.php/Home/Contest/offcontestdetail/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `c_contest` INNER JOIN c_type on c_contest.typeId=c_type.typeId  WHERE ( contestId=21 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2018-01-05T17:52:13+08:00 ] ::1 /CCIR_master/index.php/Home/Group/group.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2018-01-05T17:52:13+08:00 ] ::1 /CCIR_master/index.php/Home/Group/img/subsecond.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+
+[ 2018-01-05T17:52:28+08:00 ] ::1 /CCIR_master/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `c_type` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `c_type` LIMIT 9   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `c_user` WHERE `userId` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0012s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/Db/Driver.class.php 第 504 行.
+SQL: SELECT * FROM `c_contest` ORDER BY createtime desc LIMIT 2   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=12 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_contest` ORDER BY postNum desc LIMIT 2   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_type`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010646s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2018-01-05T17:55:57+08:00 ] ::1 /CCIR_master/index.php/home/user/recommendtouser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `c_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `c_user` WHERE `userId` = 1 AND `delStatus` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `c_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_group` WHERE ( userId=1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_focus_contest` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_focus_contest` WHERE ( userId=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0014s ]
+SQL: SELECT `typeId` FROM `c_contest` WHERE ( contestId=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `typeId` FROM `c_contest` WHERE ( contestId=16 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_contest` WHERE ( typeId=4 ) ORDER BY endtime desc,thumbNumbers desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `c_contest` WHERE ( typeId=2 ) ORDER BY endtime desc,thumbNumbers desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `c_contest` WHERE ( typeId=1 ) ORDER BY endtime desc,thumbNumbers desc LIMIT 3   [ RunTime:0.0002s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Common/functions.php:850) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/Controller/RestController.class.php 第 178 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Common/functions.php:850) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/Controller/RestController.class.php 第 180 行.
+
+[ 2018-01-05T17:59:23+08:00 ] ::1 /CCIR_master/index.php/Home/Contest/offcontest.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `c_type` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `c_type` LIMIT 6   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `c_contest` WHERE `maintype` = 2 ORDER BY endtime desc LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c_contest` WHERE `maintype` = 2 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+NOTIC: [8] Undefined index: typename /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/69dc8841bc127497871b28adbd0d46dd.php 第 197 行.
+NOTIC: [8] Undefined index: typename /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/69dc8841bc127497871b28adbd0d46dd.php 第 197 行.
+NOTIC: [8] Undefined index: typename /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/69dc8841bc127497871b28adbd0d46dd.php 第 197 行.
+NOTIC: [8] Undefined index: typename /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/69dc8841bc127497871b28adbd0d46dd.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2018-01-05T17:59:27+08:00 ] ::1 /CCIR_master/index.php/Home/Group/group.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2018-01-05T17:59:27+08:00 ] ::1 /CCIR_master/index.php/Home/Group/img/subsecond.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+
+[ 2018-01-05T17:59:51+08:00 ] ::1 /CCIR_master/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `c_type` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `c_type` LIMIT 9   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `c_user` WHERE `userId` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0015s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/Db/Driver.class.php 第 504 行.
+SQL: SELECT * FROM `c_contest` ORDER BY createtime desc LIMIT 2   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=12 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_contest` ORDER BY postNum desc LIMIT 2   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_type`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2018-01-05T17:59:59+08:00 ] ::1 /CCIR_master/index.php/Home/Contest/search?title=%E6%B5%8B%E8%AF%95
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `c_type` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_type` LIMIT 6   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `c_contest` WHERE `title` LIKE '%测试%' ORDER BY c_contest.endtime desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c_contest` WHERE `title` LIKE '%测试%' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2018-01-05T17:59:59+08:00 ] ::1 /CCIR_master/index.php/Home/Contest/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+ERR: 非法操作:js
+
+[ 2018-01-05T17:59:59+08:00 ] ::1 /CCIR_master/index.php/Home/Contest/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+ERR: 非法操作:js
+
+[ 2018-01-05T18:00:31+08:00 ] ::1 /CCIR_master/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `c_type` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `c_type` LIMIT 9   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `c_user` WHERE `userId` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0011s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/Db/Driver.class.php 第 504 行.
+SQL: SELECT * FROM `c_contest` ORDER BY createtime desc LIMIT 2   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=12 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_contest` ORDER BY postNum desc LIMIT 2   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_type`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2018-01-05T18:01:18+08:00 ] ::1 /CCIR_master/index.php/Home/Contest/incontest.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000417s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000481s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2018-01-05T18:01:23+08:00 ] ::1 /CCIR_master/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `c_type` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_type` LIMIT 9   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `c_user` WHERE `userId` = 4 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0014s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/Db/Driver.class.php 第 504 行.
+SQL: SELECT * FROM `c_contest` ORDER BY createtime desc LIMIT 2   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=12 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_contest` ORDER BY postNum desc LIMIT 2   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_type`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001605s ]
+

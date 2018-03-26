@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>校内首页</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <!--<link href="{$Think.const.HOME_CSS_URL}bootstrap.min.css" rel="stylesheet">-->
+    <!--<link rel="stylesheet" href="{$Think.const.HOME_CSS_URL}xnsy.css">-->
+    <!--<link rel="stylesheet" href="{$Think.const.HOME_CSS_URL}barstyle.css">-->
+    <link rel="stylesheet" href="{$Think.const.HOME_CSS_URL}xwsy.css">
+</head>
+<body>
+<div class="gotop"><a href="#top"><img src="{$Think.const.HOME_IMG_URL}gimages/top.png" ></a></div>
+<!--导航-->
+<div class="nav-box">
+    <div class="container">
+        <div class="logo"><img src="{$Think.const.HOME_IMG_URL}gimages/logo.png" width="100%" height="100%"></div>
+        <div class="navbar">
+            <ul class="navbar-nav">
+                <li ><a href="{:U('Index/index')}">首页</a></li>
+                <li ><a href="{:U('Contest/incontest')}">校内比赛</a></li>
+                <li ><a href="{:U('Contest/offcontest')}">校外比赛</a></li>
+                <li><a href="{:U('Group/group')}">组队社区</a></li>
+                <li><a href="{:U('Recommend/dorecommend')}">推荐比赛</a></li>
+            </ul>
+        </div>
+        <form class="form-search" method="get" action="__MODULE__/Contest/search">
+            <div class="search">
+                <input class="input-search" type="text" name="title"/>
+                <button type="submit" class="search-btn">
+                    <img src="{$Think.const.HOME_IMG_URL}search.png" width="32px" height="32px">
+                </button>
+            </div>
+        </form>
+
+        <if condition="$_SESSION['userInfo'] eq '' ">
+            <div class="login relogin">
+                <div class="l1"><a href="{:U('User/login')}">登录</a></div>
+                <div class="l2"><a href="{:U('User/register')}">注册</a></div>
+            </div>
+            <else/>
+            <div style="margin: 10px;">
+                <ul class="nav nav-pills">
+                    <li class="dropdown all-camera-dropdown" style="color: #000000">
+                        <a data-toggle="dropdown" href="#">
+                            <img src="__ROOT__/{$_SESSION['userInfo']['image']}" width="50px" height="50px" style="border-radius: 50px;margin-left: 20px" >
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </if>
+        <!--<a href="admin/login.html" class='adminlogin'>后台管理入口</a>-->
+    </div>
+</div>
+</div><!--导航-->
+<!--<div class="colorline"><h3>校内比赛</h3></div>-->
+
+<div class="clean"></div>
+
+<div class="content"><!--主体-->
+    <div class="container">
+
+        <!--信息-->
+
+        <div class="down-con">
+            <div class="left-con">
+                <volist name="list" id="vo">
+                <div class="l-item">
+                    <img src="__ROOT__/{$vo.picurl}" width="350px" height="200px">
+                    <div class="l-text">
+                        <h3>{$vo.title}</h3>
+                        <div class="tw"><img src="{$Think.const.HOME_IMG_URL}gimages/xw1.png" width="20px" height="20px"><p>截至日期：{$vo.starttime}</p></div>
+                        <div class="tw"><img src="{$Think.const.HOME_IMG_URL}gimages/xw2.png" width="20px" height="20px"><p>大赛名称：{$vo.endtime}</p></div>
+                        <div class="tw"><img src="{$Think.const.HOME_IMG_URL}gimages/xw3.png" width="20px" height="20px"><p>类型：{$vo.typename}</p></div>
+                        <div class="l-btn">
+                            <a href="__MODULE__/Contest/<if condition="$vo['maintype'] eq 1">detailContest<elseif condition="$vo['maintype'] eq 2"/>offcontestdetail</if>/id/{$vo['contestid']}">详细情况
+                            </a></div>
+                    </div>
+                </div>
+                </volist>
+
+
+                <div class="more"><a href="xwlb.html">More</a></div>
+            </div>
+            <div class="right-con">
+                <div class="r-item">
+                    <h3>比赛类别</h3>
+                    <div style="height:160px;">
+                        <volist name="types" id="vo">
+                        <a class="r-tip" href="#">{$vo.typename}</a>
+                        </volist>
+                        <a class="r-tip-1" href="#">更多...</a>
+                    </div>
+                </div>
+                <div class="r-item">
+                    <h3>猜你喜欢</h3>
+                    <ul>
+                        <li><img src="{$Think.const.HOME_IMG_URL}gimages/xw5.jpg" width="60px" height="60px"><h4>自然风光摄影大赛</h4><br/><p>类别：摄影 日期：2016.06.24</p></li>
+                        <li><img src="{$Think.const.HOME_IMG_URL}gimages/xw6.jpg" width="60px" height="60px"><h4>游戏界面设计大赛</h4><br/><p>类别：设计 日期：2016.05.24</p></li>
+                        <li><img src="{$Think.const.HOME_IMG_URL}gimages/xw7.jpg" width="60px" height="60px"><h4>校园歌手大赛</h4><br/><p>类别：艺术 日期：2016.09.04</p></li>
+                        <li><img src="{$Think.const.HOME_IMG_URL}gimages/xw5.jpg" width="60px" height="60px"><h4>自然风光摄影大赛</h4><br/><p>类别：设计 日期：2016.06.24</p></li>
+                        <li><img src="{$Think.const.HOME_IMG_URL}gimages/xw6.jpg" width="60px" height="60px"><h4>游戏界面设计大赛</h4><br/><p>类别：设计 日期：2016.06.24</p></li>
+                        <li><img src="{$Think.const.HOME_IMG_URL}gimages/xw7.jpg" width="60px" height="60px"><h4>校园歌手大赛</h4><br/><p>类别：艺术 日期：2016.09.04</p></li>
+                        <li><img src="{$Think.const.HOME_IMG_URL}gimages/xw5.jpg" width="60px" height="60px"><h4>自然风光摄影大赛</h4><br/><p>类别：设计 日期：2016.06.24</p></li>
+                        <li><img src="{$Think.const.HOME_IMG_URL}gimages/xw6.jpg" width="60px" height="60px"><h4>游戏界面设计大赛</h4><br/><p>类别：设计 日期：2016.06.24</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--信息-->
+        <div class="clean"></div>
+        <!--翻页-->
+        <div class="pagination">
+            <ul>
+                <li class="disabled"><a href="#">Prev</a></li>
+                <li class="pactive"><a href="xnlb.html">1</a></li>
+                <li><a href="xnlb2.html">2</a></li>
+                <li><a href="xnlb.html">3</a></li>
+                <li><a href="xnlb2.html">4</a></li>
+                <li><a href="xnlb.html">5</a></li>
+                <li><a href="xnlb2.html">Next</a></li>
+            </ul>
+        </div>
+    </div><!--container-->
+
+</div><!--content-->
+<footer>
+    <div class="container">
+        <div class="foot">
+            <a href="#">合作推广</a>
+            <a href="#">关于我们</a>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

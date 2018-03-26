@@ -1,0 +1,138 @@
+[ 2018-01-07T16:49:22+08:00 ] ::1 /CCIR_master/Public/Admin/loginjs//jquery.mCustomScrollbar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-07T16:49:23+08:00 ] ::1 /CCIR_master/Public/Admin/loginjs//font/adminthemes-webfont.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-07T16:49:23+08:00 ] ::1 /CCIR_master/Public/Admin/loginjs//font/adminthemes-webfont.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001533s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-07T16:49:23+08:00 ] ::1 /CCIR_master/Public/Admin/loginjs//font/adminthemes-webfont.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-07T16:49:32+08:00 ] ::1 /CCIR_master/Public/Admin/loginjs//jquery.mCustomScrollbar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-07T16:49:32+08:00 ] ::1 /CCIR_master/Public/Admin/loginjs//font/adminthemes-webfont.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-07T16:49:32+08:00 ] ::1 /CCIR_master/Public/Admin/loginjs//font/adminthemes-webfont.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-07T16:49:32+08:00 ] ::1 /CCIR_master/Public/Admin/loginjs//font/adminthemes-webfont.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-07T16:49:42+08:00 ] ::1 /CCIR_master/Public/Admin/loginjs//jquery.mCustomScrollbar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-07T16:49:42+08:00 ] ::1 /CCIR_master/Public/Admin/loginjs//font/adminthemes-webfont.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001892s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-07T16:49:42+08:00 ] ::1 /CCIR_master/Public/Admin/loginjs//font/adminthemes-webfont.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-07T16:49:42+08:00 ] ::1 /CCIR_master/Public/Admin/loginjs//font/adminthemes-webfont.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-07T19:26:59+08:00 ] ::1 /CCIR_master/Public/Home/css/jquery.ui.base.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-07T19:26:59+08:00 ] ::1 /CCIR_master/Public/Home/css/jquery.ui.theme.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-07T19:26:59+08:00 ] ::1 /CCIR_master/Public/Home/js/message.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-07T19:27:05+08:00 ] ::1 /CCIR_master/Public/Admin/loginjs//jquery.mCustomScrollbar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-07T19:27:05+08:00 ] ::1 /CCIR_master/Public/Admin/loginjs//font/adminthemes-webfont.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-07T19:27:05+08:00 ] ::1 /CCIR_master/Public/Admin/loginjs//font/adminthemes-webfont.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-07T19:27:05+08:00 ] ::1 /CCIR_master/Public/Admin/loginjs//font/adminthemes-webfont.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001295s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-07T21:55:17+08:00 ] ::1 /CCIR_master/Public/Admin/loginjs//jquery.mCustomScrollbar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-07T21:55:17+08:00 ] ::1 /CCIR_master/Public/Admin/loginjs//font/adminthemes-webfont.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-07T21:55:17+08:00 ] ::1 /CCIR_master/Public/Admin/loginjs//font/adminthemes-webfont.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-07T21:55:17+08:00 ] ::1 /CCIR_master/Public/Admin/loginjs//font/adminthemes-webfont.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+ERR: 无法加载模块:Public
+

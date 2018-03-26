@@ -1,0 +1,355 @@
+[ 2017-12-28T10:31:41+08:00 ] ::1 /CCIR_master/index.php/admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2017-12-28T10:31:41+08:00 ] ::1 /CCIR_master/index.php/admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2017-12-28T10:31:41+08:00 ] ::1 /CCIR_master/index.php/Admin/User/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+NOTIC: [8] ob_clean(): failed to delete buffer. No buffer to delete /Users/NaDou329/CCIR_master/Application/Admin/Controller/UserController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2017-12-28T10:31:42+08:00 ] ::1 /CCIR_master/index.php/Admin/User/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+NOTIC: [8] ob_clean(): failed to delete buffer. No buffer to delete /Users/NaDou329/CCIR_master/Application/Admin/Controller/UserController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2017-12-28T19:30:13+08:00 ] ::1 /CCIR_master/index.php/admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001127s ]
+
+[ 2017-12-28T19:30:13+08:00 ] ::1 /CCIR_master/index.php/Admin/User/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+NOTIC: [8] ob_clean(): failed to delete buffer. No buffer to delete /Users/NaDou329/CCIR_master/Application/Admin/Controller/UserController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000637s ]
+
+[ 2017-12-28T19:30:17+08:00 ] ::1 /CCIR_master/index.php/Admin/User/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `c_user` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `c_admin` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `c_admin` WHERE `username` = 'admin' AND `password` = 'f6fdffe48c908deb0f4c3bd36c032e72' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: iaBan /Users/NaDou329/CCIR_master/Application/Admin/Model/UserModel.class.php 第 21 行.
+SQL: UPDATE `c_admin` SET `lastime`='1514460617' WHERE `username` = 'admin' AND `password` = 'f6fdffe48c908deb0f4c3bd36c032e72' [ RunTime:0.0017s ]
+SQL: SELECT * FROM `c_admin` WHERE `username` = 'admin' AND `password` = 'f6fdffe48c908deb0f4c3bd36c032e72' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `c_privilege` [ RunTime:0.0016s ]
+SQL: SELECT `rolename`,`privilege` FROM `c_role` WHERE `roleId` = 10 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_privilege` WHERE ( pid=0 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `c_privilege` WHERE ( pid=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_privilege` WHERE ( pid=9 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `c_privilege` WHERE ( pid=13 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `c_log` [ RunTime:0.0010s ]
+SQL: INSERT INTO `c_log` (`userId`,`ip`,`time`,`c`,`a`,`agent`) VALUES ('1','0.0.0.0','1514460617','user','checklogin','Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36') [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2017-12-28T19:30:18+08:00 ] ::1 /CCIR_master/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined index: edminInfo /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/478dc61cb15681b787a1bf0ff5304105.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003821s ]
+NOTIC: [8] Undefined variable: list /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 88 行.
+NOTIC: [8] Undefined variable: list /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002997s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000007s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003109s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php:95) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php:95) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php:95) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002089s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005621s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php:95) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php:95) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php:95) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000982s ]
+
+[ 2017-12-28T19:30:23+08:00 ] ::1 /CCIR_master/index.php/Admin/Contest/contestlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `c_type` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `c_type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: con /Users/NaDou329/CCIR_master/Application/Admin/Controller/ContestController.class.php 第 45 行.
+SQL: SELECT * FROM `c_contest` LIMIT 0,16   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: con /Users/NaDou329/CCIR_master/Application/Admin/Controller/ContestController.class.php 第 48 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `c_contest` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+NOTIC: [8] Undefined index: edminInfo /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/7bfc0d982635ce2dad90593272af3e31.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004189s ]
+NOTIC: [2] Illegal string offset 'maintype' /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/e98dccafb4d4a55fc168a38281bf83a5.php 第 37 行.
+NOTIC: [8] Undefined index: maintype /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/e98dccafb4d4a55fc168a38281bf83a5.php 第 37 行.
+NOTIC: [2] Illegal string offset 'maintype' /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/e98dccafb4d4a55fc168a38281bf83a5.php 第 38 行.
+NOTIC: [2] Illegal string offset 'maintype' /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/e98dccafb4d4a55fc168a38281bf83a5.php 第 39 行.
+NOTIC: [2] Illegal string offset 'maintype' /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/e98dccafb4d4a55fc168a38281bf83a5.php 第 37 行.
+NOTIC: [8] Undefined index: maintype /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/e98dccafb4d4a55fc168a38281bf83a5.php 第 37 行.
+NOTIC: [2] Illegal string offset 'maintype' /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/e98dccafb4d4a55fc168a38281bf83a5.php 第 38 行.
+NOTIC: [2] Illegal string offset 'maintype' /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/e98dccafb4d4a55fc168a38281bf83a5.php 第 39 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/e98dccafb4d4a55fc168a38281bf83a5.php 第 49 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/e98dccafb4d4a55fc168a38281bf83a5.php 第 49 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/e98dccafb4d4a55fc168a38281bf83a5.php 第 49 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/e98dccafb4d4a55fc168a38281bf83a5.php 第 49 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/e98dccafb4d4a55fc168a38281bf83a5.php 第 49 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/e98dccafb4d4a55fc168a38281bf83a5.php 第 49 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/e98dccafb4d4a55fc168a38281bf83a5.php 第 49 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/e98dccafb4d4a55fc168a38281bf83a5.php 第 49 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/e98dccafb4d4a55fc168a38281bf83a5.php 第 49 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/e98dccafb4d4a55fc168a38281bf83a5.php 第 49 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/e98dccafb4d4a55fc168a38281bf83a5.php 第 49 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/e98dccafb4d4a55fc168a38281bf83a5.php 第 49 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/e98dccafb4d4a55fc168a38281bf83a5.php 第 49 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/e98dccafb4d4a55fc168a38281bf83a5.php 第 49 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/e98dccafb4d4a55fc168a38281bf83a5.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004501s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004612s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php:95) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php:95) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php:95) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007419s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001462s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006418s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php:95) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php:95) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php:95) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001279s ]
+
+[ 2017-12-28T19:30:25+08:00 ] ::1 /CCIR_master/index.php/Admin/contest/addcontest.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+NOTIC: [8] Undefined variable: arr /Users/NaDou329/CCIR_master/Application/Admin/Controller/CommonController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `c_log` [ RunTime:0.0010s ]
+SQL: INSERT INTO `c_log` (`userId`,`ip`,`time`,`c`,`a`,`agent`) VALUES ('1','0.0.0.0','1514460625','contest','addcontest','Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36') [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `c_type` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `c_type`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000303s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000385s ]
+NOTIC: [8] Undefined index: edminInfo /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/478dc61cb15681b787a1bf0ff5304105.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004470s ]
+NOTIC: [8] Undefined variable: info /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 28 行.
+NOTIC: [8] Undefined variable: info /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 38 行.
+NOTIC: [8] Undefined variable: info /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 39 行.
+NOTIC: [8] Undefined variable: info /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 55 行.
+NOTIC: [8] Undefined variable: info /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 64 行.
+NOTIC: [8] Undefined variable: info /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 73 行.
+NOTIC: [8] Undefined variable: info /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 82 行.
+NOTIC: [8] Undefined variable: info /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 92 行.
+NOTIC: [8] Undefined variable: info /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 104 行.
+NOTIC: [8] Undefined variable: info /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 106 行.
+NOTIC: [8] Undefined variable: info /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 119 行.
+NOTIC: [8] Undefined variable: info /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 119 行.
+NOTIC: [8] Undefined variable: info /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 119 行.
+NOTIC: [8] Undefined variable: info /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 119 行.
+NOTIC: [8] Undefined variable: info /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 119 行.
+NOTIC: [8] Undefined variable: info /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 119 行.
+NOTIC: [8] Undefined variable: info /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 119 行.
+NOTIC: [8] Undefined variable: info /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 119 行.
+NOTIC: [8] Undefined variable: info /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 119 行.
+NOTIC: [8] Undefined variable: info /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 119 行.
+NOTIC: [8] Undefined variable: info /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 119 行.
+NOTIC: [8] Undefined variable: info /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 119 行.
+NOTIC: [8] Undefined variable: info /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 119 行.
+NOTIC: [8] Undefined variable: info /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 119 行.
+NOTIC: [8] Undefined variable: info /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 119 行.
+NOTIC: [8] Undefined variable: info /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 132 行.
+NOTIC: [8] Undefined variable: info /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 141 行.
+NOTIC: [8] Undefined variable: info /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 149 行.
+NOTIC: [8] Undefined variable: info /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 157 行.
+NOTIC: [8] Use of undefined constant ADMIN_UEDITOR_URL - assumed 'ADMIN_UEDITOR_URL' /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 177 行.
+NOTIC: [8] Use of undefined constant ADMIN_UEDITOR_URL - assumed 'ADMIN_UEDITOR_URL' /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 178 行.
+NOTIC: [8] Use of undefined constant ADMIN_UEDITOR_URL - assumed 'ADMIN_UEDITOR_URL' /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/f346669ec00a64ad36df30f0b1852693.php 第 179 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005064s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000007s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005189s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php:95) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php:95) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php:95) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007624s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001322s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006799s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php:95) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php:95) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php:95) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2017-12-28T19:30:25+08:00 ] ::1 /CCIR_master/index.php/Admin/contest/$info['imgsrc']
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+ERR: 非法操作:$info['imgsrc']
+

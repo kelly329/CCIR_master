@@ -1,0 +1,125 @@
+<style>
+    .tag-selected {
+        background: #1ab394 !important;
+        color: white !important;
+    }
+
+    .bookimg {
+        height: 250px;
+        width: 175px;
+    }
+</style>
+<div class="wrapper wrapper-content">
+    <div class="row">
+        <div class="col-sm-3 animated fadeInLeft">
+            <div class="ibox float-e-margins">
+                <div class="ibox-content">
+                    <div class="file-manager">
+                        <h2>比赛信息管理列表</h2>
+                         <form action="__ACTION__">
+                             <h5 class="tag-title">比赛名称</h5>
+                                <div class="input-group">
+                                    <if condition="empty($title) eq true">
+                                    <input type="text" placeholder="按照比赛名称搜索书籍" name="title" class="input-sm form-control">
+                                    <else />
+                                    <input type="text" value="{$title}" name="title" class="input-sm form-control">
+                                    </if>
+                                      <span class="input-group-btn">
+                                        <button type="submit" class="btn btn-sm btn-primary"><i
+                                                class="fa fa-search"></i></button>
+                                                <a href="{:U('contest/contestlist')}"><button type="button" class="btn btn-sm btn-default"><i class="fa fa-times"></i></button></a>
+                                    </span>
+                                </div>
+                        </form>
+                        <h5 class="tag-title">比赛主分类</h5>
+                        <ul class="tag-list" style="padding: 0">
+                            <li><a <?php if(empty($_GET['maintype'])){echo 'class="tag-selected"';}; ?>
+                                href="<?php echo valueChange('maintype',0)?>">全部</a>
+                            </li>
+                            <foreach item="vo" name="maintype">
+                                <li><a <?php if($vo['maintype']==$_GET['maintype']){echo 'class="tag-selected"';}  ?>
+                                    href="<?php echo valueChange('maintype',$vo['maintype'])?>">
+                                    <if condition="$vo['maintype'] eq 1">校内<else />校外</if>
+                                    </a>
+                                </li>
+
+                            </foreach>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <h5 class="tag-title">比赛是否推荐</h5>
+                        <ul class="tag-list" style="padding: 0">
+                            <li><a <?php if(empty($_GET['isrecommend'])){echo 'class="tag-selected"';}; ?>
+                                href="<?php echo valueChange('isrecommend',0)?>">全部</a>
+                            </li>
+                            <foreach item="vo" name="isrecommend">
+                                <li><a <?php if($vo['isrecommend']==$_GET['isrecommend']){echo 'class="tag-selected"';}  ?>
+                                    href="<?php echo valueChange('isrecommend',$vo['isrecommend'])?>">
+                                    <if condition="$vo['isrecommend'] eq 1">推荐<else />非推荐</if>
+                                    </a>
+                                </li>
+
+                            </foreach>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <h5 class="tag-title">比赛类型</h5>
+                        <ul class="tag-list" style="padding: 0">
+                            <li><a <?php if(empty($_GET['typeId'])){echo 'class="tag-selected"';}; ?>
+                                href="<?php echo valueChange('typeId',0)?>">全部</a>
+                            </li>
+                            <foreach item="vo" name="type">
+                                <li><a <?php if($vo['typeid']==$_GET['typeId']){echo 'class="tag-selected"';}  ?>
+                                href="<?php echo valueChange('typeId',$vo['typeid'])?>">{$vo.typename}</a>
+                            </li>
+
+                            </foreach>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <div class="clearfix" style="margin-top: 20px"></div>
+                        <div class="hr-line-dashed"></div>
+                        <a href="{:U('contest/addcontest')}">
+                            <button class="btn btn-primary btn-block">上传比赛</button>
+                        </a>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-9 animated fadeInRight">
+            <div class="row">
+                <div class="col-sm-12">
+                    <volist name="list" id="vo">
+
+                        <div class="file-box">
+                            <div class="file">
+                                <a href="__CONTROLLER__/editcontest/id/{$vo.contestid}">
+                                    <span class="corner"></span>
+                                    <!--图片-->
+                                    <div class="image">
+                                        <img alt="{$vo.title}" class="img-responsive bookimg" src="__ROOT__/{$vo.picurl}">
+                                    </div>
+                                    <!--书名-->
+                                    <div class="file-name">
+                                        <?php echo subtext($vo['title'],10);?>
+                                        <br/>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </volist>
+                </div>
+            </div>
+            <div class="page-container">
+                <div class="page">{$page}</div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        $('.file-box').each(function () {
+            animationHover(this, 'pulse');
+        });
+    });
+</script>

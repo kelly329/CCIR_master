@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>个人主页</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <script src="{$Think.const.HOME_JS_URL}jquery1.min.js"></script>
+    <script src="{$Think.const.HOME_JS_URL}jquery.scrollzer.min.js"></script>
+    <script src="{$Think.const.HOME_JS_URL}jquery.scrolly.min.js"></script>
+    <script src="{$Think.const.HOME_JS_URL}skel.min.js"></script>
+    <script src="{$Think.const.HOME_JS_URL}skel-layers.min.js"></script>
+    <script src="{$Think.const.HOME_JS_URL}init.js"></script>
+    <script type="text/javascript" src="{$Think.const.HOME_JS_URL}jquery-1.7.2.min.js"></script>
+    <!-- 弹出框 -->
+    <link rel="stylesheet" href="{$Think.const.HOME_JS_URL}index(3).css">
+    <script type="text/javascript" src="{$Think.const.HOME_JS_URL}jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="{$Think.const.HOME_JS_URL}jquery.reveal.js"></script>
+    <link rel="stylesheet" href="{$Think.const.HOME_JS_URL}skel.css" />
+    <link rel="stylesheet" href="{$Think.const.HOME_JS_URL}style.css" />
+    <link href="{$Think.const.HOME_CSS_URL}bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+<body>
+
+<div id="wrapper">
+    <!-- Header -->
+    <section id="header" class="skel-layers-fixed">
+        <header>
+						<span class="image avatar">
+                            <!--<a href="#" data-reveal-id="myModals" data-animation="fade">-->
+                                <a href="gerenxinxi.php">
+                             <img src="uploads/<?php echo $row['face']?>" alt="" />
+                             </a>
+                        </span>
+            <h1><a href="" target="_blank">昵称</a></h1>
+            <p><?php echo $row['user_profile']?></p>
+        </header>
+        <nav id="nav">
+            <ul>
+                <li><a href="#one" class="active">比赛经历</a></li>
+                <li><a href="#two">我关注的人</a></li>
+                <li><a href="#three">谁关注我</a></li>
+                <li><a href="#four">我的动态</a></li>
+                <li><a href="#five">个性标签</a></li>
+                <li><a href="#six">我的收藏</a></li>
+            </ul>
+        </nav>
+        <footer>
+            <ul class="icons">
+                <li ><a href="webindex.php">首页</a></li>
+                <li ><a href="xnsy.php">校内比赛</a></li>
+                <li><a href="xwsy.php">校外比赛</a></li>
+                <li><a href="sh.php">组队社区</a></li>
+            </ul>
+        </footer>
+    </section>
+
+    <!-- Main -->
+    <div id="main">
+        <!-- One -->
+        <!-- 比赛经历 -->
+        <script type="text/javascript">
+            $(document).ready(function(e) {
+                var h = $(".about4_main ul li:first-child").height()/2;<!--第一个li高度的一半-->
+                var h1 = $(".about4_main ul li:last-child").height()/2;<!--最后一个li高度的一半-->
+                $(".line").css("top",h);
+                $(".line").height($(".about4_main").height()-h1-h);
+            });
+        </script>
+        <section id="one">
+            <div class="container">
+
+                <div class="about4"><h3>我的比赛经历</h3>
+                    <div class="about4_main">
+                        <div class="line"></div>
+                        <ul>
+                            <li>
+                                <b>2015年ACM比赛</b>
+                            </li>
+                            <li>
+                                <b>2014数码创意大赛</b>
+                            </li>
+                            <li>
+                                <b>2013年院刊设计大赛</b>
+                            </li>
+                            <li>
+                                <b>2012年微电影大赛</b>
+                            </li>
+                            <li>
+                                <a href="#">...more</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Two -->
+        <section id="two">
+            <div class="container">
+                <h3>我关注的人</h3>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                        <tr>
+                            <div class="ABC"><a href="#a">A</a></div>
+                            <div class="ABC"><a href="#b">B</a></div>
+                            <div class="ABC"><a href="#c">C</a></div>
+                            <div class="ABC"><a href="#d">D</a></div>
+                            <div class="ABC"><a href="#e">E</a></div>
+                            <div class="ABC"><a href="#f">F</a></div>
+                            <div class="ABC"><a href="#g">G</a></div>
+                            <div class="ABC"><a href="#h">H</a></div>
+                            <div class="ABC"><a href="#i">I</a></div>
+                            <div class="ABC"><a href="#j">J</a></div>
+                            <div class="ABC"><a href="#k">K</a></div>
+                            <div class="ABC"><a href="#l">L</a></div>
+                            <div class="ABC"><a href="#m">M</a></div>
+                            <div class="ABC"><a href="#n">N</a></div>
+                            <div class="ABC"><a href="#o">O</a></div>
+                            <div class="ABC"><a href="#p">P</a></div>
+                            <div class="ABC"><a href="#q">Q</a></div>
+                            <div class="ABC"><a href="#r">R</a></div>
+                            <div class="ABC"><a href="#s">S</a></div>
+                            <div class="ABC"><a href="#t">T</a></div>
+                            <div class="ABC"><a href="#u">U</a></div>
+                            <div class="ABC"><a href="#v">V</a></div>
+                            <div class="ABC"><a href="#w">W</a></div>
+                            <div class="ABC"><a href="#x">X</a></div>
+                            <div class="ABC"><a href="#y">Y</a></div>
+                            <div class="ABC"><a href="#z">Z</a></div>
+                            <!-- <th><td>A</td></th> -->
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th  id="a"><font color="#990000">A</font></th>
+                        </tr>
+                        <tr>
+                            <td><img src="images/head.gif" height="50" width="50" alt=""></td>
+                            <td><h5><font color="#990000">Adobe资源库</font></h5>
+                                <br/>
+                                <h6>123</h6>
+                            </td>
+                            <td><h6>2016年12月13日</h6></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/head.gif" height="50" width="50" alt=""></td>
+                            <td><h5><font color="#990000">Adobe资源库</font></h5>
+                                <br/>
+                                <h6>123</h6>
+                            </td>
+                            <td><h6>2016年12月13日</h6></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/head.gif" height="50" width="50" alt=""></td>
+                            <td><h5><font color="#990000">Adobe资源库</font></h5>
+                                <br/>
+                                <h6>123</h6>
+                            </td>
+                            <td><h6>2016年12月13日</h6></td>
+                        </tr>
+                        </tbody>
+                        <tbody>
+                        <tr>
+                            <th  id="b"><font color="#990000">B</font></th>
+                        </tr>
+                        <tr>
+                            <td><img src="images/head.gif" height="50" width="50" alt=""></td>
+                            <td><h5><font color="#990000">Adobe资源库</font></h5>
+                                <br/>
+                                <h6>123</h6>
+                            </td>
+                            <td><h6>2016年12月13日</h6></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/head.gif" height="50" width="50" alt=""></td>
+                            <td><h5><font color="#990000">Adobe资源库</font></h5>
+                                <br/>
+                                <h6>123</h6>
+                            </td>
+                            <td><h6>2016年12月13日</h6></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/head.gif" height="50" width="50" alt=""></td>
+                            <td><h5><font color="#990000">Adobe资源库</font></h5>
+                                <br/>
+                                <h6>123</h6>
+                            </td>
+                            <td><h6>2016年12月13日</h6></td>
+                        </tr>
+                        </tbody>
+                        <tbody>
+                        <tr>
+                            <th  id="c"><font color="#990000">C</font></th>
+                        </tr>
+                        <tr>
+                            <td><img src="images/head.gif" height="50" width="50" alt=""></td>
+                            <td><h5><font color="#990000">hhhhh</font></h5>
+                                <br/>
+                                <h6>123</h6>
+                            </td>
+                            <td><h6>2016年12月13日</h6></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/head.gif" height="50" width="50" alt=""></td>
+                            <td><h5><font color="#990000">Adobe资源库</font></h5>
+                                <br/>
+                                <h6>123</h6>
+                            </td>
+                            <td><h6>2016年12月13日</h6></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/head.gif" height="50" width="50" alt=""></td>
+                            <td><h5><font color="#990000">Adobe资源库</font></h5>
+                                <br/>
+                                <h6>123</h6>
+                            </td>
+                            <td><h6>2016年12月13日</h6></td>
+                        </tr>
+                        </tbody>
+                        <tbody>
+                        <tr>
+                            <th  id="d"><font color="#990000">D</font></th>
+                        </tr>
+                        <tr>
+                            <td><img src="images/head.gif" height="50" width="50" alt=""></td>
+                            <td><h5><font color="#990000">Adobe资源库</font></h5>
+                                <br/>
+                                <h6>123</h6>
+                            </td>
+                            <td><h6>2016年12月13日</h6></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/head.gif" height="50" width="50" alt=""></td>
+                            <td><h5><font color="#990000">Adobe资源库</font></h5>
+                                <br/>
+                                <h6>123</h6>
+                            </td>
+                            <td><h6>2016年12月13日</h6></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/head.gif" height="50" width="50" alt=""></td>
+                            <td><h5><font color="#990000">Adobe资源库</font></h5>
+                                <br/>
+                                <h6>123</h6>
+                            </td>
+                            <td><h6>2016年12月13日</h6></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Three -->
+        <section id="three">
+            <div class="container">
+                <h3>谁关注我</h3>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                        <tr>
+                            <div class="ABC"><a href="#a">A</a></div>
+                            <div class="ABC"><a href="#b">B</a></div>
+                            <div class="ABC"><a href="#c">C</a></div>
+                            <div class="ABC"><a href="#d">D</a></div>
+                            <div class="ABC"><a href="#e">E</a></div>
+                            <div class="ABC"><a href="#f">F</a></div>
+                            <div class="ABC"><a href="#g">G</a></div>
+                            <div class="ABC"><a href="#h">H</a></div>
+                            <div class="ABC"><a href="#i">I</a></div>
+                            <div class="ABC"><a href="#j">J</a></div>
+                            <div class="ABC"><a href="#k">K</a></div>
+                            <div class="ABC"><a href="#l">L</a></div>
+                            <div class="ABC"><a href="#m">M</a></div>
+                            <div class="ABC"><a href="#n">N</a></div>
+                            <div class="ABC"><a href="#o">O</a></div>
+                            <div class="ABC"><a href="#p">P</a></div>
+                            <div class="ABC"><a href="#q">Q</a></div>
+                            <div class="ABC"><a href="#r">R</a></div>
+                            <div class="ABC"><a href="#s">S</a></div>
+                            <div class="ABC"><a href="#t">T</a></div>
+                            <div class="ABC"><a href="#u">U</a></div>
+                            <div class="ABC"><a href="#v">V</a></div>
+                            <div class="ABC"><a href="#w">W</a></div>
+                            <div class="ABC"><a href="#x">X</a></div>
+                            <div class="ABC"><a href="#y">Y</a></div>
+                            <div class="ABC"><a href="#z">Z</a></div>
+                            <!-- <th><td>A</td></th> -->
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th  id="a"><font color="#990000">A</font></th>
+                        </tr>
+                        <tr>
+                            <td><img src="images/head.gif" height="50" width="50" alt=""></td>
+                            <td><h5><font color="#990000">Adobe资源库</font></h5>
+                                <br/>
+                                <h6>123</h6>
+                            </td>
+                            <td><h6>2016年12月13日</h6></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/head.gif" height="50" width="50" alt=""></td>
+                            <td><h5><font color="#990000">Adobe资源库</font></h5>
+                                <br/>
+                                <h6>123</h6>
+                            </td>
+                            <td><h6>2016年12月13日</h6></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/head.gif" height="50" width="50" alt=""></td>
+                            <td><h5><font color="#990000">Adobe资源库</font></h5>
+                                <br/>
+                                <h6>123</h6>
+                            </td>
+                            <td><h6>2016年12月13日</h6></td>
+                        </tr>
+                        </tbody>
+                        <tbody>
+                        <tr>
+                            <th  id="b"><font color="#990000">B</font></th>
+                        </tr>
+                        <tr>
+                            <td><img src="images/head.gif" height="50" width="50" alt=""></td>
+                            <td><h5><font color="#990000">Adobe资源库</font></h5>
+                                <br/>
+                                <h6>123</h6>
+                            </td>
+                            <td><h6>2016年12月13日</h6></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/head.gif" height="50" width="50" alt=""></td>
+                            <td><h5><font color="#990000">Adobe资源库</font></h5>
+                                <br/>
+                                <h6>123</h6>
+                            </td>
+                            <td><h6>2016年12月13日</h6></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/head.gif" height="50" width="50" alt=""></td>
+                            <td><h5><font color="#990000">Adobe资源库</font></h5>
+                                <br/>
+                                <h6>123</h6>
+                            </td>
+                            <td><h6>2016年12月13日</h6></td>
+                        </tr>
+                        </tbody>
+                        <tbody>
+                        <tr>
+                            <th  id="c"><font color="#990000">C</font></th>
+                        </tr>
+                        <tr>
+                            <td><img src="images/head.gif" height="50" width="50" alt=""></td>
+                            <td><h5><font color="#990000">hhhhh</font></h5>
+                                <br/>
+                                <h6>123</h6>
+                            </td>
+                            <td><h6>2016年12月13日</h6></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/head.gif" height="50" width="50" alt=""></td>
+                            <td><h5><font color="#990000">Adobe资源库</font></h5>
+                                <br/>
+                                <h6>123</h6>
+                            </td>
+                            <td><h6>2016年12月13日</h6></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/head.gif" height="50" width="50" alt=""></td>
+                            <td><h5><font color="#990000">Adobe资源库</font></h5>
+                                <br/>
+                                <h6>123</h6>
+                            </td>
+                            <td><h6>2016年12月13日</h6></td>
+                        </tr>
+                        </tbody>
+                        <tbody>
+                        <tr>
+                            <th  id="d"><font color="#990000">D</font></th>
+                        </tr>
+                        <tr>
+                            <td><img src="images/head.gif" height="50" width="50" alt=""></td>
+                            <td><h5><font color="#990000">Adobe资源库</font></h5>
+                                <br/>
+                                <h6>123</h6>
+                            </td>
+                            <td><h6>2016年12月13日</h6></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/head.gif" height="50" width="50" alt=""></td>
+                            <td><h5><font color="#990000">Adobe资源库</font></h5>
+                                <br/>
+                                <h6>123</h6>
+                            </td>
+                            <td><h6>2016年12月13日</h6></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/head.gif" height="50" width="50" alt=""></td>
+                            <td><h5><font color="#990000">Adobe资源库</font></h5>
+                                <br/>
+                                <h6>123</h6>
+                            </td>
+                            <td><h6>2016年12月13日</h6></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Four -->
+        <section id="four">
+            <div class="container">
+                <h3>我的动态</h3>
+                <div class="kuai">
+                    <div><h4><font color="#990000">LOGO大师</font></h4></div>
+                    <div><img src="images/timg.png" width="15px" height="15px" margin="auto"><font size="3em"><B>2016年4月20日</B></font></div>
+                    <div id="xianzhib"><h5>论坛（forum） ，简单理解为发帖回帖讨论的平台。是Internet上的一种电子信息服务系统。它提供一块公共电子白板，每个用户都可以在上面书写，可发布信息或提出看法。它是一种交互性强，内容丰富而及时的Internet电子信息服务系统，用户在BBS站点上可以获得各种信息服务、发布信息、进行讨论、聊天等等。</h5></div>
+                    <div>&nbsp;
+                        <div class="iconb"><a href="#"><img src="images/icon1.png">评论111</a></div>
+                        <div class="iconb"><a href="#"><img src="images/icon2.png">点赞111</a></div>
+                        <div class="iconb"><a href="#"><img src="images/icon3.png">分享111</a></div>
+                        <div class="iconb"><a href="#"><img src="images/icon4.png">收藏111</a></div>
+                    </div>
+                </div>
+
+                <div class="kuai">
+                    <div><h4><font color="#990000">LOGO大师</font></h4></div>
+                    <div><img src="images/timg.png" width="15px" height="15px" margin="auto"><font size="3em"><B>2016年4月20日</B></font></div>
+                    <div id="xianzhib"><h5>论坛（forum） ，简单理解为发帖回帖讨论的平台。是Internet上的一种电子信息服务系统。它提供一块公共电子白板，每个用户都可以在上面书写，可发布信息或提出看法。它是一种交互性强，内容丰富而及时的Internet电子信息服务系统，用户在BBS站点上可以获得各种信息服务、发布信息、进行讨论、聊天等等。</h5></div>
+                    <div>&nbsp;
+                        <div class="iconb"><a href="#"><img src="images/icon1.png">评论111</a></div>
+                        <div class="iconb"><a href="#"><img src="images/icon2.png">点赞111</a></div>
+                        <div class="iconb"><a href="#"><img src="images/icon3.png">分享111</a></div>
+                        <div class="iconb"><a href="#"><img src="images/icon4.png">收藏111</a></div>
+                    </div>
+                </div>
+
+                <div class="kuai">
+                    <div><h4><font color="#990000">LOGO大师</font></h4></div>
+                    <div><img src="images/timg.png" width="15px" height="15px" margin="auto"><font size="3em"><B>2016年4月20日</B></font></div>
+                    <div id="xianzhib"><h5>论坛（forum） ，简单理解为发帖回帖讨论的平台。是Internet上的一种电子信息服务系统。它提供一块公共电子白板，每个用户都可以在上面书写，可发布信息或提出看法。它是一种交互性强，内容丰富而及时的Internet电子信息服务系统，用户在BBS站点上可以获得各种信息服务、发布信息、进行讨论、聊天等等。</h5></div>
+                    <div>&nbsp;
+                        <div class="iconb"><a href="#"><img src="images/icon1.png">评论111</a></div>
+                        <div class="iconb"><a href="#"><img src="images/icon2.png">点赞111</a></div>
+                        <div class="iconb"><a href="#"><img src="images/icon3.png">分享111</a></div>
+                        <div class="iconb"><a href="#"><img src="images/icon4.png">收藏111</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--
+       <div class="more"><a href="#">更多...</a></div>
+
+
+					<!-- Five -->
+        <section id="five">
+            <div class="container">
+                <h3>个性标签</h3>
+                <div id="mybiao">
+                    <div class="mybiaoqian"><a>美</a></div>
+                    <div class="mybiaoqian"><a>很美</a></div>
+                    <div class="mybiaoqian"><a>非常美</a></div>
+                    <div class="mybiaoqian"><a>特别美</a></div>
+                    <div class="mybiaoqian"><a>超级美</a></div>
+                    <div class="mybiaoqian"><a>超级无敌美</a></div>
+                    <div class="mybiaoqian"><a>宇宙超级无敌美</a></div>
+                    <div class="mybiaoqian"><a>哈哈</a></div>
+                    <div class="mybiaoqian"><a>呵呵</a></div>
+                    <div class="mybiaoqian"><a href="gerenxinxi.php" target="_blank">+</a></div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- six -->
+        <section id="six">
+            <div class="container">
+                <h3>我的收藏</h3>
+                <p><h6>某年的某月的某日，我收藏了某些珍贵的东西</h6></p>
+                <div class="features">
+                    <article>
+                        <a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+                        <div class="inner">
+                            <h4>这是标题</h4>
+                            <p><a>我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美</a></p>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+                        <div class="inner">
+                            <h4>这是传说中的标题</h4>
+                            <p><a>我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美</a></p>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+                        <div class="inner">
+                            <h4>噢噢这就是标题</h4>
+                            <p><a>我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美我太美</a></p>
+                        </div>
+                    </article>
+                </div>
+            </div></section>
+        <!--</div>
+
+            <section class="banquan">
+                ©2016 北师比赛网
+            </section>
+        </div>	!-->
+
+        <div id="myModals" class="reveal-modal">
+            <!--<iframe src="touxianggenggai.php" width="800" height="800"></iframe>-->
+            <div width="800" height="800">
+                <include file="Public/indeframe" />
+            </div>
+        </div>
+</body>
+</html>

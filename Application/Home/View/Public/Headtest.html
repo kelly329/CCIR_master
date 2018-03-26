@@ -1,0 +1,41 @@
+<div class="nav-box">
+    <div class="container">
+        <div class="logo"><img src="{$Think.const.HOME_IMG_URL}logo.png" ></div>
+        <div class="navbar">
+            <ul class="navbar-nav">
+                <li class="active"><a href="{:U('Index/index')}" >首页</a></li>
+                <li class=""><a href="xnsy.html">校内比赛</a></li>
+                <li><a href="xwsy.html">校外比赛</a></li>
+                <li><a href="sh.html">组队社区</a></li>
+                <li><a href="#">推荐比赛</a></li>
+            </ul>
+        </div>
+        <form class="form-search">
+            <div class="search">
+                <input class="input-search" type="text"/>
+                <button type="submit" class="search-btn"><img src="{$Think.const.HOME_IMG_URL}search.png" width="32px" height="32px">
+                </button>
+            </div>
+        </form>
+        <div class="login relogin">
+            <?php if($_SESSION['userInfo']['userId']):?>
+
+            <!--<?php echo $_SESSION['userInfo']['image'];?>-->
+
+
+
+                <span style="font-size: large;">欢迎您</span><?php echo $_SESSION['userInfo']['username'];?>
+
+            <!--<a href="{:U('User/logout')}">[退出]</a>-->
+            <a rel="nofollow" data-method="delete" href="{:U('User/logout')}">
+                <i class="iconfont ic-navigation-signout"></i><span>退出</span>
+            </a>
+            <?php else:?>
+            <div class="l1"><a href="log.html">登录</a></div>
+            <div class="l2"><a href="register.html">注册</a></div>
+            <?php endif;?>
+        </div>
+    </div>
+</div><!--导航-->
+<div class="clean" style="clear:both"></div>
+

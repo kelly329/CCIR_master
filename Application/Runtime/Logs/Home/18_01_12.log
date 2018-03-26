@@ -1,0 +1,208 @@
+[ 2018-01-12T15:56:38+08:00 ] ::1 /CCIR_master/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000492s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000585s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000854s ]
+
+[ 2018-01-12T15:56:42+08:00 ] ::1 /CCIR_master/index.php/Home/User/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `c_user` [ RunTime:0.0106s ]
+SQL: SHOW COLUMNS FROM `c_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `c_user` WHERE `userName` = 'admin' AND `password` = 'f6fdffe48c908deb0f4c3bd36c032e72' LIMIT 1   [ RunTime:0.0077s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+
+[ 2018-01-12T15:56:45+08:00 ] ::1 /CCIR_master/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2018-01-12T15:56:54+08:00 ] ::1 /CCIR_master/index.php/Home/User/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `c_user` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `c_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `c_user` WHERE `userName` = 'zhangna' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `c_user` SET `lastime`='1515743814',`lastip`='::1' WHERE `userName` = 'zhangna' AND `password` = '21232f297a57a5a743894a0e4a801fc3' [ RunTime:0.0032s ]
+SQL: SELECT * FROM `c_user` WHERE `userName` = 'zhangna' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/NaDou329/CCIR_master/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2018-01-12T15:56:55+08:00 ] ::1 /CCIR_master/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `c_type` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `c_type` LIMIT 9   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `c_user` WHERE `userId` = 4 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `c_contest` [ RunTime:0.0037s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/Db/Driver.class.php 第 504 行.
+SQL: SELECT * FROM `c_contest` ORDER BY createtime desc LIMIT 2   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c_contest` ORDER BY postNum desc LIMIT 2   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_type`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+NOTIC: [8] Undefined index: typeId /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 368 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2018-01-12T15:56:57+08:00 ] ::1 /CCIR_master/index.php/Home/Recommend/dorecommend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `c_recommend` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `c_type` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_type`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+NOTIC: [8] Undefined index: privilegeid /Users/NaDou329/CCIR_master/Application/Component/Classify.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008534s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2018-01-12T15:56:58+08:00 ] ::1 /CCIR_master/index.php/Home/Recommend/gimages/wx.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+
+[ 2018-01-12T15:56:58+08:00 ] ::1 /CCIR_master/index.php/Home/Recommend/gimages/wb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+
+[ 2018-01-12T15:56:58+08:00 ] ::1 /CCIR_master/index.php/Home/Recommend/gimages/top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+
+[ 2018-01-12T15:56:58+08:00 ] ::1 /CCIR_master/index.php/Home/Recommend/gimages/qq.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010490s ]
+
+[ 2018-01-12T15:56:58+08:00 ] ::1 /CCIR_master/index.php/Home/Recommend/gimages/kj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+
+[ 2018-01-12T16:40:29+08:00 ] ::1 /CCIR_master/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+

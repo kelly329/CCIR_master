@@ -1,0 +1,121 @@
+[ 2018-01-08T00:05:58+08:00 ] ::1 /CCIR_master/index.php/Admin/Fuser/recommendlst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+NOTIC: [8] Undefined index: type /Users/NaDou329/CCIR_master/Application/Admin/Controller/FuserController.class.php 第 158 行.
+NOTIC: [8] Undefined index: type /Users/NaDou329/CCIR_master/Application/Admin/Controller/FuserController.class.php 第 160 行.
+SQL: SHOW COLUMNS FROM `c_recommend` [ RunTime:0.0027s ]
+NOTIC: [8] Undefined variable: con /Users/NaDou329/CCIR_master/Application/Admin/Controller/FuserController.class.php 第 170 行.
+SQL: SELECT * FROM `c_recommend` INNER JOIN c_user on c_user.userId=c_recommend.userId  ORDER BY c_recommend.createtime desc LIMIT 0,20   [ RunTime:0.0024s ]
+NOTIC: [8] Undefined variable: con /Users/NaDou329/CCIR_master/Application/Admin/Controller/FuserController.class.php 第 172 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `c_recommend` INNER JOIN c_user on c_user.userId=c_recommend.userId  LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined index: edminInfo /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/478dc61cb15681b787a1bf0ff5304105.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004160s ]
+NOTIC: [8] Undefined index: username /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/9315d0132bd9f630c80773af7bcf6405.php 第 23 行.
+NOTIC: [8] Undefined index: p /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/9315d0132bd9f630c80773af7bcf6405.php 第 61 行.
+NOTIC: [8] Undefined index: type /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/9315d0132bd9f630c80773af7bcf6405.php 第 73 行.
+NOTIC: [8] Undefined index: p /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/9315d0132bd9f630c80773af7bcf6405.php 第 61 行.
+NOTIC: [8] Undefined index: type /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/9315d0132bd9f630c80773af7bcf6405.php 第 73 行.
+NOTIC: [8] Undefined index: p /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/9315d0132bd9f630c80773af7bcf6405.php 第 61 行.
+NOTIC: [8] Undefined index: type /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/9315d0132bd9f630c80773af7bcf6405.php 第 73 行.
+NOTIC: [8] Undefined index: p /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/9315d0132bd9f630c80773af7bcf6405.php 第 61 行.
+NOTIC: [8] Undefined index: type /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/9315d0132bd9f630c80773af7bcf6405.php 第 73 行.
+NOTIC: [8] Undefined index: p /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/9315d0132bd9f630c80773af7bcf6405.php 第 61 行.
+NOTIC: [8] Undefined index: type /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/9315d0132bd9f630c80773af7bcf6405.php 第 73 行.
+NOTIC: [8] Undefined index: p /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/9315d0132bd9f630c80773af7bcf6405.php 第 61 行.
+NOTIC: [8] Undefined index: type /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/9315d0132bd9f630c80773af7bcf6405.php 第 73 行.
+NOTIC: [8] Undefined index: p /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/9315d0132bd9f630c80773af7bcf6405.php 第 61 行.
+NOTIC: [8] Undefined index: type /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/9315d0132bd9f630c80773af7bcf6405.php 第 73 行.
+NOTIC: [8] Undefined index: p /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/9315d0132bd9f630c80773af7bcf6405.php 第 61 行.
+NOTIC: [8] Undefined index: type /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/9315d0132bd9f630c80773af7bcf6405.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003471s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003881s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php:95) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php:95) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php:95) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001604s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005794s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php:95) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php:95) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php:95) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000839s ]
+
+[ 2018-01-08T00:06:02+08:00 ] ::1 /CCIR_master/index.php/Admin/Fuser/recommendetail/id/4/type/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+NOTIC: [8] Undefined index: action /Users/NaDou329/CCIR_master/Application/Admin/Controller/FuserController.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `c_recommend` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `c_recommend` INNER JOIN c_user on c_user.userId=c_recommend.userId  WHERE ( c_recommend.id=4 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `c_type` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_type` WHERE ( typeId=3 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined index: edminInfo /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/478dc61cb15681b787a1bf0ff5304105.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003349s ]
+NOTIC: [8] Undefined index: type /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/5ce50fde63892c35034311f8f2c7ab3a.php 第 11 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' /Users/NaDou329/CCIR_master/Application/Runtime/Cache/Admin/5ce50fde63892c35034311f8f2c7ab3a.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002759s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003115s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php:95) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php:95) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php:95) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005469s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001302s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004705s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php:95) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php:95) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php:95) /Users/NaDou329/CCIR_master/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001515s ]
+

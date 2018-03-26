@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>阅读海洋学生家长注册页面</title>
+    <meta name="keywords" content="阅读海洋,阅读海洋后台管理系统">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <link href="{$Think.const.ADMIN_CSS_URL}bootstrap.min.css" rel="stylesheet">
+    <link href="{$Think.const.ADMIN_CSS_URL}font-awesome.min.css" rel="stylesheet">
+    <link href="{$Think.const.ADMIN_CSS_URL}animate.min.css" rel="stylesheet">
+    <link href="{$Think.const.ADMIN_CSS_URL}style.min862f.css?version=201706" rel="stylesheet">
+    <link rel="stylesheet" href="{$Think.const.ADMIN_CSS_URL}newstyle.css" />
+    <link rel="stylesheet" href="{$Think.const.ADMIN_CSS_URL}step.css" />
+    <link href="{$Think.const.ADMIN_CSS_URL}/plugins/toastr/toastr.min.css" rel="stylesheet">
+    <style>
+        .margin-top {
+            margin-top: 10px;
+        }
+        
+        .tag-selected {
+            background: #1ab394 !important;
+            color: white !important;
+        }
+        
+        .overy {
+            overflow-y: auto;
+        }
+    </style>
+</head>
+
+<body class="gray-bg top-navigation" style="min-height: 450px;">
+    <nav class="navbar navbar-static-top white-bg" role="navigation">
+        <div class="navbar-header">
+            <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" style="background-color:#1ab394" type="button">
+            <i class="fa fa-reorder"></i>
+        </button>
+            <a href="javascript:void(0)" class="navbar-brand">阅读海洋</a>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar">
+            <ul class="nav navbar-top-links navbar-right">
+                <li>
+                    <a href="{:U('home/User/login')}">
+                        <i class="fa fa-sign-out"></i> 已有账户，登录
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="wrapper">
+        <div id="page-wrapper" class="gray-bg" style="padding-top:20px">
+            <div class="ibox-content m-b-sm border-bottom">
+                <div class="row">
+                    <div class="col-sm-11 p-xs">
+                        <div class="pull-left m-r-md">
+                            <i class="fa fa-cogs text-navy mid-icon"></i>
+                        </div>
+                        <h2>注册成为阅读海洋小学家长用户</h2>
+                        <span>通过导入规定格式的excel的文件导入学校教师数据</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="app_root">
+                <div class="col-sm-12 col-lg-12 col-md-12 col-xs-12">
+                    <div class="ibox">
+                        <div class="ibox-content ">
+                            <div class="step">
+                                <div class="step-controller-bar">
+                                    <ul>
+                                        <li class="step-item" :class="{'step-item-selected':step==0}" @click="step=0">使用前需知</li>
+                                        <li class="step-item" :class="{'step-item-selected':step==1}" @click="step=1">请输入已有的学生账号</li>
+                                        <li class="step-item" :class="{'step-item-selected':step==2}" @click="step=2">注册后台学生家长账号</li>
+                                    </ul>
+                                </div>
+                                <div class="step-content">
+                                    <div class="step-body" v-show="step==0">
+                                        <p>
+                                            1. 为获得网络服务，服务使用人（以下称"用户"）应当同意本协议的全部条款并按照页面上的提示完成全部的注册程序。用户在进行注册程序过程中点击"同意"按钮即表示用户完全接受本协议项下的全部条款。
+                                        </p>
+                                        <p>
+                                            2. 注册家长账户需先拥有阅读海洋学生账号，方可注册；且学生家长账户仅供管理后台登录所用，前台家长账户无法登录。
+                                        </p>
+                                        <p>
+                                            3. 用户注册成功后，系统将给予每个用户一个用户帐号及相应的密码，该用户帐号和密码由用户负责保管；用户应当对以其用户帐号进行的所有活动和事件负法律责任。
+                                        </p>
+                                        <p>
+                                            4. 系统内规定，一个学生账号最多只能绑定2个家长账户，一个家长账户最多绑定5个学生账号。
+                                        </p>
+                                        <p>
+                                            5. 用户在申请使用阅读海洋及其附属服务时，必须向系统提供准确的个人资料，如个人资料有任何变动，必须及时更新。
+                                        </p>
+                                        <p>
+                                            6. 用户不应将其帐号、密码转让或出借予他人使用。如用户发现其帐号遭他人非法使用，应立即通知阅读海洋系统管理员。因黑客行为或用户的保管疏忽导致帐号、密码遭他人非法使用，系统将不承担任何责任。
+                                        </p>
+                                    </div>
+                                    <div class="step-body" v-show="step==1">输入学生账号</div>
+                                    <div class="step-body" v-show="step==2">asda</div>
+                                </div>
+                                <div class="step-action">
+                                    <ul>
+                                        <li class="action-item">清空所有输入</li>
+                                        <li class="action-item" :class="{'action-item':canSubmit}">确认，提交</li>
+                                        <li class="action-item">{{btn_tip}}</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<!--日历引用-->
+<script src="{$Think.const.ADMIN_JS_URL}plugins/toastr/toastr.min.js"></script>
+<script src="{$Think.const.VUE_URL}vue.js"></script>
+<script>
+    toastr.options = {
+        "closeButton": true, //是否显示关闭按钮
+        "debug": false,
+        "progressBar": true, //是否显示进度条
+        "positionClass": "toast-top-right",
+        "onclick": null,
+        "showDuration": "200",
+        "hideDuration": "100",
+        "timeOut": "2000",
+        "extendedTimeOut": "1000",
+        "showEasing": "swing",
+        "hideEasing": "linear",
+        "showMethod": "fadeIn",
+        "hideMethod": "fadeOut"
+    };
+    var vm = new Vue({
+        el: '#app_root',
+        data: {
+            step: 0,
+            student: {
+                username: "",
+                userpwd: "",
+                school: "",
+                grade: "",
+                klass: "",
+                province: ""
+            },
+            parent: {
+                username: "",
+                name: "",
+                pwd: "",
+                email: "",
+                phone: ""
+            },
+            isTrue: "", //标记学生账户是否为true
+            btn_tip: "同意以上事项",
+        },
+        methods: {
+            committime: function() {
+                this.start = this.$refs.start.value;
+                this.end = this.$refs.end.value;
+            },
+            addtype: function() {
+                this.typelist = "";
+                this.type.forEach(function(element, index) {
+                    this.typelist += (index + 1) + "." + element + " ";
+                }, this);
+            },
+            clearBook: function() {
+                this.bookid = "";
+                this.bookname = "";
+                this.book_cover = "";
+            },
+            addtask: function() {
+                //调用后台数据接口
+                $.ajax({
+                    url: '__CONTROLLER__/posttask',
+                    method: 'post',
+                    data: {
+                        grade: this.grade,
+                        province: this.province,
+                        task_title: this.title,
+                        describe: this.content,
+                        bookid: this.bookid,
+                        start: this.start,
+                        end: this.end,
+                        typelist: this.typelist,
+                    },
+                    dataType: "json",
+                    success: function(data) {
+                        if (data.tag == 1 || data.code == 200) {
+                            toastr.success("任务发布成功");
+                        } else {
+                            toastr.warning(data.msg || data.result);
+                        }
+                    },
+                    error: function() {
+                        toastr.warning('网络错误,请稍后再试。');
+                    }
+                });
+            }
+        },
+        computed: {
+            btn_disable() {
+                return this.province <= 0 || this.grade <= 0 || this.title <= 0 || this.start <= 0 || this.end <=
+                    0 || this.content <= 0;
+            },
+            isCorrect() {
+                return this.parent.username <= 0 || this.parent.name <= 0 || this.parent.pwd <= 0 || this.parent.phone <= 0 ||
+                    this.parent.email <= 0;
+            },
+            canSubmit() {
+                return this.isCorrect == true && this.isTrue;
+            }
+
+        },
+        filters: {
+            BookNameFormat: function(val) {
+                if (val)
+                    return "《 " + val + " 》";
+                else
+                    return "暂无书籍";
+            },
+            TypeList: function(val) {
+                if (!val)
+                    return "任务类型非必填";
+                else
+                    return val;
+            }
+        },
+        //监听数据是否变化
+        watch: {
+            step() {
+                switch (this.step) {
+                    case 0:
+                        this.btn_tip = "同意以上事项";
+                        break;
+                    case 1:
+                        this.btn_tip = "返回上一步";
+                        break;
+                    case 2:
+                        this.btn_tip = "返回上一步";
+                        break;
+                }
+            }
+        }
+    });
+</script>
